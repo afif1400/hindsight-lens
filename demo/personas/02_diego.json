@@ -1,0 +1,170 @@
+{
+  "user_id": "diego-ramirez",
+  "display_name": "Diego",
+  "profile": {"full_name": "Diego Ramírez", "about": "41, Madrid. Runs a small tapas restaurant"},
+  "sessions": [
+    {
+      "id": "s01",
+      "started_at": "2026-08-24T10:40:00+02:00",
+      "recalls": [],
+      "messages": [
+        {"role": "user", "text": "hola! ya estoy en modo lunes, el restaurante cierra los lunes y por fin tengo un rato. me ayudas a organizar la semana?"},
+        {"role": "assistant", "text": "¡Hola, Diego! Claro, con gusto. ¿Qué es lo más urgente esta semana, pedidos, turnos o algo de la carta?"},
+        {"role": "user", "text": "pedidos sobre todo. tengo un bar de tapas pequeño, Casa Olmo, en Lavapiés. el pescado lo compro todo a un solo proveedor del mercado, Pescados Herrera"},
+        {"role": "assistant", "text": "Entendido: Casa Olmo, tapas, y el pescado siempre con Pescados Herrera. ¿Cuántas veces a la semana haces el pedido?"},
+        {"role": "user", "text": "martes jueves y sábado, de madrugada. me guardan las mejores doradas y el bacalao"},
+        {"role": "assistant", "text": "Buen sistema. ¿Quieres que armemos una lista fija para cada día de pedido, para no olvidarte nada?"},
+        {"role": "user", "text": "sí porfa. martes: dorada, calamar, bacalao. jueves igual + gambas. sábado lo más grande porque el finde es fuerte"},
+        {"role": "assistant", "text": "Apuntado: martes dorada, calamar y bacalao; jueves lo mismo más gambas; sábado pedido grande para el finde. ¿Cuántos cubiertos sueles hacer un sábado?"},
+        {"role": "user", "text": "unos 70 entre comida y cena. somos tres en cocina y dos en sala"},
+        {"role": "assistant", "text": "Con 70 cubiertos y tres en cocina vais justos pero bien. ¿Quieres que pensemos también el reparto de turnos?"},
+        {"role": "user", "text": "eso otro día, ahora me voy a ver a mi hija un rato. gracias!"},
+        {"role": "assistant", "text": "¡Disfruta con ella! Cuando quieras retomamos turnos y pedidos."}
+      ]
+    },
+    {
+      "id": "s02",
+      "started_at": "2026-08-31T10:20:00+02:00",
+      "recalls": ["Which fish supplier does Diego use?"],
+      "messages": [
+        {"role": "user", "text": "buenas. Herrera me ha subido los precios un 15%!! la dorada y el bacalao sobre todo"},
+        {"role": "assistant", "text": "Vaya, un 15% duele en un bar de tapas. ¿Te avisó con tiempo o te enteraste al ver la factura?"},
+        {"role": "user", "text": "la factura jaja. el martes. llevo 6 años con ellos y ni una llamada"},
+        {"role": "assistant", "text": "Entonces tiene sentido mirar alternativas. ¿Conoces algún otro proveedor del mercado?"},
+        {"role": "user", "text": "un colega me habló de Pescados Montero, puesto del fondo. fui el jueves y probé la dorada, muy fresca y un 10% más barata que Herrera"},
+        {"role": "assistant", "text": "Eso es bastante diferencia. ¿Te dieron buen trato con el pedido de prueba?"},
+        {"role": "user", "text": "sí, me llevan el pedido al local a las 7. decidido, cambio a Montero esta semana"},
+        {"role": "assistant", "text": "Buena decisión entonces. ¿Quieres que redactemos un mensaje corto para avisar a Herrera de forma cordial?"},
+        {"role": "user", "text": "no hace falta, les mando un whatsapp yo. btw can you remind me which days I place the fish order?"},
+        {"role": "assistant", "text": "Tuesday, Thursday and Saturday, and from now on with Montero. Do you keep the same list of fish?"},
+        {"role": "user", "text": "same list yes. thanks"},
+        {"role": "assistant", "text": "Perfect: dorada, calamar and bacalao, gambas on Thursdays and a big order on Saturdays."}
+      ]
+    },
+    {
+      "id": "s03",
+      "started_at": "2026-09-07T10:05:00+02:00",
+      "recalls": ["Which fish supplier does Diego use now?", "Which day is Diego's restaurant closed?"],
+      "messages": [
+        {"role": "user", "text": "hola, lunes otra vez. Montero va muy bien, el bacalao llegó perfecto"},
+        {"role": "assistant", "text": "Me alegra, Diego. ¿Te siguen entregando a las 7 como acordaste?"},
+        {"role": "user", "text": "sí, puntuales. ahora quiero pensar en la carta de otoño. quiero setas y castañas"},
+        {"role": "assistant", "text": "Qué buena combinación para otoño. ¿Ya tienes alguna idea de plato o partimos de cero?"},
+        {"role": "user", "text": "croquetas de setas, un revuelto de setas con huevo, y crema de castañas. y quizá una tosta de castañas con queso de cabra"},
+        {"role": "assistant", "text": "Suena muy otoñal. ¿Para cuándo quieres tenerla lista?"},
+        {"role": "user", "text": "mediados de septiembre, la pruebo esta semana. y el miércoles Lucía empieza primaria, tengo que llevarla al cole a las 9"},
+        {"role": "assistant", "text": "¡Qué ilusión, Lucía empieza primaria! ¿El cole queda cerca del restaurante?"},
+        {"role": "user", "text": "a 10 min andando, vuelvo hacia las 9:30 y abrimos cocina a las 11 para la prep"},
+        {"role": "assistant", "text": "Entonces te da tiempo justo. Y los lunes, como cerráis, tienes más calma. ¿Lo apunto para no cruzar horarios?"},
+        {"role": "user", "text": "sí. los lunes cerramos y me da respiro"}
+      ]
+    },
+    {
+      "id": "s04",
+      "started_at": "2026-09-14T10:30:00+02:00",
+      "recalls": ["What dishes is Diego planning for his autumn menu?", "What time does Diego take his daughter to school?"],
+      "messages": [
+        {"role": "user", "text": "ya llevamos una semana de cole jaja Lucía feliz. oye ya probé las croquetas de setas, salieron bien"},
+        {"role": "assistant", "text": "¡Qué bien por Lucía y por las croquetas! ¿De qué setas las hiciste?"},
+        {"role": "user", "text": "boletus y níscalos, secos y frescos mezclados. el revuelto con huevo de corral"},
+        {"role": "assistant", "text": "Rico. ¿Y las castañas, ya probaste la crema y la tosta?"},
+        {"role": "user", "text": "sí, la crema de castañas con un toque de nata, 6€. la tosta con queso de cabra, 5,50"},
+        {"role": "assistant", "text": "Buen rango para tapas. ¿Cómo vas a presentar la carta, hoja nueva o pizarra?"},
+        {"role": "user", "text": "pizarra, la cambio cada temporada. i need help with the wording tho, something short and nice"},
+        {"role": "assistant", "text": "Sure. How about «Otoño en Casa Olmo: setas, castañas y lo que traiga el mercado»? Want something more playful?"},
+        {"role": "user", "text": "me gusta, casi. cambia «lo que traiga el mercado» por «lo mejor del mercado»"},
+        {"role": "assistant", "text": "Hecho: «Otoño en Casa Olmo: setas, castañas y lo mejor del mercado». ¿La escribes tú en la pizarra?"},
+        {"role": "user", "text": "yo mismo, tengo buena letra jaja"}
+      ]
+    },
+    {
+      "id": "s05",
+      "started_at": "2026-09-21T10:15:00+02:00",
+      "recalls": ["What dishes are on Diego's autumn menu?"],
+      "messages": [
+        {"role": "user", "text": "cuatro días de carta nueva. las croquetas vuelan, el revuelto bien, pero la crema de castañas casi nadie la pide"},
+        {"role": "assistant", "text": "Qué dato útil. ¿Cuántas has vendido frente a las croquetas?"},
+        {"role": "user", "text": "unas 6 en total vs 40 croquetas por noche. hace mucho calor todavía para crema"},
+        {"role": "assistant", "text": "Tiene sentido, con calor la gente pide algo más fresco. ¿La quitas ya o esperas a que baje la temperatura?"},
+        {"role": "user", "text": "la quito. me quedo con croquetas, revuelto y la tosta de castañas, que sí se pide"},
+        {"role": "assistant", "text": "Entonces la carta queda con croquetas de setas, revuelto de setas y tosta de castañas, sin la crema. ¿Borras tú la pizarra?"},
+        {"role": "user", "text": "sí, esta tarde. I'd like to put a special instead, maybe a fish dish with Montero's product"},
+        {"role": "assistant", "text": "Good idea. What fish looks best at Montero this week?"},
+        {"role": "user", "text": "lubina, they got a great one. lubina a la sal for two"},
+        {"role": "assistant", "text": "Nice, a lubina a la sal for two sounds like a hit. Do you want a price idea or are you set?"},
+        {"role": "user", "text": "ya tengo precio, 34€. gracias!"}
+      ]
+    },
+    {
+      "id": "s06",
+      "started_at": "2026-09-23T15:40:00+02:00",
+      "recalls": ["Who works in Diego's kitchen?"],
+      "messages": [
+        {"role": "user", "text": "tengo noticia: he contratado a una sous-chef, se llama Carla. empieza el martes 29"},
+        {"role": "assistant", "text": "¡Enhorabuena, Diego! ¿Ya la conocías o la encontraste con un anuncio?"},
+        {"role": "user", "text": "venía de otro restaurante, me la recomendó un colega. muy buena con el pescado"},
+        {"role": "assistant", "text": "Perfecto para los pedidos de Montero. ¿Qué vas a dejarle primero?"},
+        {"role": "user", "text": "cocina de mediodía y el pedido de pescado. así yo puedo librar los domingos por fin"},
+        {"role": "assistant", "text": "Gran cambio, llevas tiempo sin un domingo libre. ¿Cerraréis los domingos o seguirás abriendo con Carla al mando?"},
+        {"role": "user", "text": "lo estoy pensando. si cierro domingos tendría que abrir lunes, que nunca hemos abierto"},
+        {"role": "assistant", "text": "Tiene sentido mirar los números. ¿Qué día suele ser más flojo, el domingo o el lunes?"},
+        {"role": "user", "text": "domingo cena es flojo. lunes no sé, nunca lo probamos"},
+        {"role": "assistant", "text": "Entonces probar el lunes tiene poco riesgo. ¿Lo decides cuando Carla lleve unos días?"},
+        {"role": "user", "text": "sí, esa semana decido"}
+      ]
+    },
+    {
+      "id": "s07",
+      "started_at": "2026-09-30T15:30:00+02:00",
+      "recalls": ["What is Diego's daughter's school schedule?", "Which day is Diego's restaurant closed?"],
+      "messages": [
+        {"role": "user", "text": "Carla empezó ayer y va genial. ya me ha corregido el punto del bacalao jaja"},
+        {"role": "assistant", "text": "Jaja, buen fichaje entonces. ¿Cómo os repartís la cocina?"},
+        {"role": "user", "text": "ella mediodía y pedidos, yo las noches. decidido: desde el domingo 4 de octubre cerramos domingos y abrimos lunes"},
+        {"role": "assistant", "text": "Entonces Casa Olmo pasa a cerrar los domingos en lugar de los lunes. ¿Lo avisas ya a los clientes?"},
+        {"role": "user", "text": "cartel en la puerta e instagram hoy. me recuerdas a qué hora llevo mañana a Lucía y si tengo algo antes?"},
+        {"role": "assistant", "text": "A las 9 en el cole, a 10 minutos andando, y la cocina se abre a las 11, así que vas sobrado. ¿Quién la recoge por la tarde?"},
+        {"role": "user", "text": "mi madre a las 4. con Carla por las mañanas ya no voy con prisas"},
+        {"role": "assistant", "text": "Qué alivio para las mañanas. ¿Y los domingos libres los vas a dedicar a Lucía?"},
+        {"role": "user", "text": "claro, plan de domingo con ella y con mi mujer"},
+        {"role": "assistant", "text": "Me encanta. ¿Quieres que te ayude a redactar el cartel del cambio de día?"},
+        {"role": "user", "text": "sí: cerrado domingos, abierto lunes desde el 5 de octubre"}
+      ]
+    },
+    {
+      "id": "s08",
+      "started_at": "2026-10-02T16:00:00+02:00",
+      "recalls": ["Who works at Diego's restaurant?", "What is Diego's daughter's school schedule?"],
+      "messages": [
+        {"role": "user", "text": "oye, una idea loca: abrir un segundo local. me ofrecen un sitio en Chamberí, cerca de otro mercado"},
+        {"role": "assistant", "text": "Interesante. ¿Cómo de en serio lo estás pensando?"},
+        {"role": "user", "text": "el alquiler son 2.800 al mes. con Carla puedo delegar un poco en Casa Olmo"},
+        {"role": "assistant", "text": "Con Carla el primer local está más cubierto, pero serían más gastos y más horas. ¿Cuánto tiempo extra podrías dedicarle?"},
+        {"role": "user", "text": "ese es el tema, Lucía acaba de empezar el cole y no quiero perderme las mañanas con ella"},
+        {"role": "assistant", "text": "Es un buen punto. ¿Qué pesa más ahora, el sitio o el momento?"},
+        {"role": "user", "text": "el sitio es bueno pero el momento no sé. si lo hago, mejor en primavera"},
+        {"role": "assistant", "text": "Entonces no hay prisa. ¿Hacemos una lista de pros y contras para decidir con calma?"},
+        {"role": "user", "text": "vale. pros: más ingresos y marca. contras: dinero, tiempo con Lucía, Carla aún nueva"},
+        {"role": "assistant", "text": "Buena lista. ¿Cuánto tendría que facturar el local para compensar el alquiler y el personal?"},
+        {"role": "user", "text": "no sé, lo calculo el finde"}
+      ]
+    },
+    {
+      "id": "s09",
+      "started_at": "2026-10-05T10:30:00+02:00",
+      "recalls": ["What is Diego's closing day now?", "Is Diego planning a second location?"],
+      "messages": [
+        {"role": "user", "text": "hola, primer lunes abierto en la historia de Casa Olmo jaja. y ya decidí lo del segundo local: de momento no"},
+        {"role": "assistant", "text": "¡Primer lunes abierto, qué hito! ¿Qué te hizo decidirte?"},
+        {"role": "user", "text": "los números no cierran y quiero estar con Lucía por las mañanas. Carla aún está aprendiendo la cocina"},
+        {"role": "assistant", "text": "Me parece sensato, y siempre puedes retomarlo en primavera si cambia algo. ¿Le escribes hoy al dueño del local?"},
+        {"role": "user", "text": "sí, educado. can you help with the message?"},
+        {"role": "assistant", "text": "Sure: «Gracias por la oferta, pero por ahora no es el momento. Si sigue libre en primavera, me encantaría hablar.» Want to change the tone?"},
+        {"role": "user", "text": "perfecto así. gracias!"},
+        {"role": "assistant", "text": "Perfecto, ánimo con este primer lunes. ¿A qué hora abrís hoy?"},
+        {"role": "user", "text": "a las 13, tranquilo de momento"}
+      ]
+    }
+  ],
+  "portrait": "Diego Ramírez, 41, runs Casa Olmo, a small tapas restaurant in Madrid. He now buys fish from Pescados Montero (dropped Herrera over a price rise), has a sous-chef, Carla, and closes Sundays instead of Mondays. His autumn menu is mushroom croquettes, mushroom scramble and chestnut toast. He drops off daughter Lucía at school at 9am and has put a second location on hold."
+}

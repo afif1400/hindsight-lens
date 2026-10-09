@@ -1,0 +1,152 @@
+{
+  "user_id": "lena-fischer",
+  "display_name": "Lena",
+  "profile": {"full_name": "Lena Fischer", "about": "23, Berlin. Master's student in urban planning"},
+  "sessions": [
+    {
+      "id": "s01",
+      "started_at": "2026-08-24T20:15:00+02:00",
+      "recalls": [],
+      "messages": [
+        {"role": "user", "text": "hi! can you help me organise my week? thesis is eating me alive"},
+        {"role": "assistant", "text": "Of course. What's the thesis about, and when is it due?"},
+        {"role": "user", "text": "bike-lane networks in german cities, how connected they actually are. due in march. my supervisor is prof weber"},
+        {"role": "assistant", "text": "Sounds like a solid topic. How far along are you, and what's the next thing Prof. Weber expects from you?"},
+        {"role": "user", "text": "lit review is half done. i need to send him an outline by friday"},
+        {"role": "assistant", "text": "Then let's protect two long blocks for the lit review before Friday. Do you work or have classes alongside this?"},
+        {"role": "user", "text": "i work saturdays and sundays at a cafe, so weekdays are mine. i live in a student dorm in wedding, its pretty loud tho"},
+        {"role": "assistant", "text": "Got it, weekdays for the thesis and weekends at the cafe. Would the university library be quieter than the dorm for your two blocks?"},
+        {"role": "user", "text": "yes definitely. tue and thu mornings then"},
+        {"role": "assistant", "text": "Tuesday and Thursday mornings at the library, outline out by Friday. Want a short checklist for what the outline should contain?"}
+      ]
+    },
+    {
+      "id": "s02",
+      "started_at": "2026-08-31T19:40:00+02:00",
+      "recalls": ["What is Lena's thesis about and who supervises it?", "Where does Lena work?"],
+      "messages": [
+        {"role": "user", "text": "weber liked the outline!! but he says he's going on leave from october, for a few months"},
+        {"role": "assistant", "text": "Good news about the outline, less great about the leave. Does he know who will take over your thesis in March?"},
+        {"role": "user", "text": "not yet, the department will assign someone. kinda stressed"},
+        {"role": "assistant", "text": "That's understandable. Could you ask him for written feedback now, so a new supervisor can see where the bike-lane work stands?"},
+        {"role": "user", "text": "good idea. also random, i want to go home to my parents in freiburg for christmas. should i book a flight now?"},
+        {"role": "assistant", "text": "Booking early usually helps. Which days are you thinking, and are you flying out of Berlin?"},
+        {"role": "user", "text": "23 dec to 2 jan, from BER. my cafe boss needs to approve the time off too"},
+        {"role": "assistant", "text": "Ask the cafe for the time off first, then book. Want me to draft a short message to your boss?"},
+        {"role": "user", "text": "yes pls, casual tone"},
+        {"role": "assistant", "text": "Here's a draft: Hi! I'd love to be off from 23 Dec to 2 Jan to visit my parents, I can cover extra shifts in November if that helps. Does that work? Shall I tweak it?"}
+      ]
+    },
+    {
+      "id": "s03",
+      "started_at": "2026-09-07T18:55:00+02:00",
+      "recalls": ["Who supervises Lena's thesis?", "What is Lena's thesis topic?"],
+      "messages": [
+        {"role": "user", "text": "update: i got a new supervisor, dr. brandt. met her today"},
+        {"role": "assistant", "text": "How did the meeting go? And did she say anything about the bike-lane topic Prof. Weber approved?"},
+        {"role": "user", "text": "she thinks my topic is too broad for 6 months. she wants me to narrow it to cargo-bike delivery routes"},
+        {"role": "assistant", "text": "That is a much tighter scope. Does cargo-bike delivery feel interesting to you, or more like a compromise?"},
+        {"role": "user", "text": "actually kinda excited, there's real data from last-mile pilots. but i have to redo my research question"},
+        {"role": "assistant", "text": "Your lit review on bike-lane networks still helps, since routes depend on the network. Want to draft a new research question together?"},
+        {"role": "user", "text": "yes. something like: how do bike-lane gaps affect cargo-bike delivery routes in berlin"},
+        {"role": "assistant", "text": "Good start. Maybe add a measurable angle, like route length or delivery time. Which of those could you get data for?"},
+        {"role": "user", "text": "route length for sure. ill ask brandt about time data"}
+      ]
+    },
+    {
+      "id": "s04",
+      "started_at": "2026-09-12T11:20:00+02:00",
+      "recalls": ["Where does Lena live?"],
+      "messages": [
+        {"role": "user", "text": "ok the dorm is driving me insane, neighbours party every night. i'm looking at shared flats"},
+        {"role": "assistant", "text": "Fair, that's hard with a thesis due. Any area in mind, or a budget?"},
+        {"role": "user", "text": "neukoelln ideally, close to the ubahn. max 500 warm"},
+        {"role": "assistant", "text": "Neukölln has plenty of WGs in that range. Do you already have viewings lined up?"},
+        {"role": "user", "text": "one on thursday, two flatmates, a guy and a girl. they sound nice"},
+        {"role": "assistant", "text": "Nice. What would you like to ask them about, rent split, quiet hours, who cleans what?"},
+        {"role": "user", "text": "quiet hours definitely, i need to write at home. and whether they cook together"},
+        {"role": "assistant", "text": "Both good questions. Want a short list of five to ask on Thursday so you don't forget any?"},
+        {"role": "user", "text": "yes please"}
+      ]
+    },
+    {
+      "id": "s05",
+      "started_at": "2026-09-18T21:05:00+02:00",
+      "recalls": ["Where does Lena live and where is she moving?"],
+      "messages": [
+        {"role": "user", "text": "I GOT THE FLAT"},
+        {"role": "assistant", "text": "Congratulations! Is it the Neukölln one with the two flatmates?"},
+        {"role": "user", "text": "yes!! flatmates are jonas and mira. room is 480 warm. i move in on 27 sept"},
+        {"role": "assistant", "text": "Great price. Have you told the dorm office, and do you have a way to move your things?"},
+        {"role": "user", "text": "dorm notice is done. my friend has a car, so thats sorted"},
+        {"role": "assistant", "text": "Perfect. Do you need to register your new address at the Bürgeramt, or sort an internet contract?"},
+        {"role": "user", "text": "oh right the anmeldung. i have to book that. internet is already in the flat"},
+        {"role": "assistant", "text": "Appointments can be scarce, so book it today if you can. Shall I put a reminder for it in your week?"},
+        {"role": "user", "text": "yes, remind me tomorrow morning"}
+      ]
+    },
+    {
+      "id": "s06",
+      "started_at": "2026-09-28T10:30:00+02:00",
+      "recalls": ["Where does Lena live?", "Who are Lena's flatmates?"],
+      "messages": [
+        {"role": "user", "text": "moved yesterday!! boxes everywhere but it's so quiet here"},
+        {"role": "assistant", "text": "Congrats on the move! How are Jonas and Mira, and is your desk set up yet?"},
+        {"role": "user", "text": "they're great, mira made dinner for all of us. desk is not set up lol"},
+        {"role": "assistant", "text": "Dinner on day one is a good sign. What do you need most to get the desk working, a lamp, a chair?"},
+        {"role": "user", "text": "just a lamp. also, i'm thinking about quitting the cafe. weekends are the only time i get to rest"},
+        {"role": "assistant", "text": "That makes sense. Would you still need the income, or is there another option?"},
+        {"role": "user", "text": "brandt offered me a research assistant job at the uni, weekday afternoons. pays better"},
+        {"role": "assistant", "text": "That sounds like a strong option, and relevant to your cargo-bike work. Have you said yes yet?"},
+        {"role": "user", "text": "not yet, ill decide this week"}
+      ]
+    },
+    {
+      "id": "s07",
+      "started_at": "2026-09-30T19:10:00+02:00",
+      "recalls": ["Where does Lena work and what are her job options?", "Who is Lena's thesis supervisor?"],
+      "messages": [
+        {"role": "user", "text": "decided! i said yes to the RA job. i start monday"},
+        {"role": "assistant", "text": "Congratulations! Did you already tell the cafe?"},
+        {"role": "user", "text": "yes, i quit today. my last shift is this sunday"},
+        {"role": "assistant", "text": "That was a big step. Are the RA hours weekday afternoons, so your mornings stay free for the thesis?"},
+        {"role": "user", "text": "yep, 1 to 5 mon to fri. mornings for the thesis, weekends off finally"},
+        {"role": "assistant", "text": "That's a good rhythm. Do you want help planning a weekly schedule with thesis mornings and RA afternoons?"},
+        {"role": "user", "text": "yes. and i want one free evening for the flat dinners"},
+        {"role": "assistant", "text": "Sure. Would Wednesday work as your flat dinner evening, or does another day suit Jonas and Mira better?"},
+        {"role": "user", "text": "wednesday is good, they said so too"}
+      ]
+    },
+    {
+      "id": "s08",
+      "started_at": "2026-10-02T12:45:00+02:00",
+      "recalls": ["What does Lena eat or avoid eating?"],
+      "messages": [
+        {"role": "user", "text": "ok random: mira is vegetarian and i've been eating her cooking, i think i'm going vegetarian too"},
+        {"role": "assistant", "text": "That's a big change. Is it a trial, or are you pretty set on it?"},
+        {"role": "user", "text": "pretty set. no meat from now on, fish too. cheese and eggs are fine"},
+        {"role": "assistant", "text": "Okay, vegetarian with dairy and eggs. Want a few easy weeknight recipes for between thesis and RA hours?"},
+        {"role": "user", "text": "yes!! quick ones. i used to live on chicken and rice lol"},
+        {"role": "assistant", "text": "Try chickpea curry with rice, or a lentil bolognese. Both take about 25 minutes and keep well. Which sounds better?"},
+        {"role": "user", "text": "lentil bolognese. i'll make it wednesday for the flat dinner"},
+        {"role": "assistant", "text": "Nice plan. Do Jonas or Mira have any dietary needs I should keep in mind for the shopping list?"}
+      ]
+    },
+    {
+      "id": "s09",
+      "started_at": "2026-10-04T17:30:00+02:00",
+      "recalls": ["What are Lena's Christmas plans?", "Where does Lena live?"],
+      "messages": [
+        {"role": "user", "text": "so about christmas, i've been reading about flying and i feel bad about it. i think im taking the train to freiburg instead"},
+        {"role": "assistant", "text": "That's a nice option. You'd planned 23 Dec to 2 Jan, right? Are you thinking of a direct train from Berlin?"},
+        {"role": "user", "text": "yes same dates. it's about 8 hours with one change i think. I can work on my thesis on the train"},
+        {"role": "assistant", "text": "Eight hours is a perfect stretch for reading data. Did you book the flight already, or can you skip that?"},
+        {"role": "user", "text": "no flight booked luckily. i need to book the train and a seat reservation"},
+        {"role": "assistant", "text": "Tickets for the 23rd tend to sell out, so booking soon is wise. Want me to remind you to do it this week?"},
+        {"role": "user", "text": "yes, thursday evening. and tell my parents, my dad will love it"},
+        {"role": "assistant", "text": "Reminder set for Thursday evening. Will your parents pick you up at the station in Freiburg?"}
+      ]
+    }
+  ],
+  "portrait": "Lena Fischer is a 23-year-old urban planning master's student in Berlin, writing a thesis on cargo-bike delivery routes under Dr. Brandt, due in March. She lives in a shared flat in Neukölln with Jonas and Mira, works as a university research assistant on weekday afternoons, and is vegetarian. She plans to take the train to her parents in Freiburg for Christmas."
+}

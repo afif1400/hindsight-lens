@@ -1,0 +1,45 @@
+/* Concept A's rules on top of AlignUI's tokens. Inter (AlignUI's default)
+   for reading, a neutral primary (no AlignUI blue), amber only for what needs attention. */
+
+/* Inter, Latin only: the page is one file and the other alphabets would triple it. Other
+   scripts (Hindsight writes some beliefs in Hindi) fall back to the system font. */
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-geist-mono: ui-monospace, monospace;
+  --primary-base: var(--neutral-950);
+  --primary-darker: var(--neutral-800);
+  --primary-dark: var(--neutral-900);
+  --primary-alpha-24: var(--neutral-alpha-24);
+  --primary-alpha-16: var(--neutral-alpha-16);
+  --primary-alpha-10: var(--neutral-alpha-10);
+  --warning-base: oklch(0.67 0.16 70);
+  --warning-dark: oklch(0.47 0.12 60);
+  --warning-light: oklch(0.88 0.1 85);
+  --warning-lighter: oklch(0.97 0.03 90);
+}
+.dark {
+  --primary-base: var(--neutral-0);
+  --primary-darker: var(--neutral-100);
+  --primary-dark: var(--neutral-200);
+  --warning-base: oklch(0.78 0.15 75);
+  --warning-dark: oklch(0.88 0.1 85);
+  --warning-lighter: oklch(0.35 0.06 70 / 0.35);
+}
+html,
+body {
+  background: var(--bg-white-0);
+  color: var(--text-strong-950);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+}
+::selection {
+  background: var(--neutral-alpha-24);
+}

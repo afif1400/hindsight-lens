@@ -1,0 +1,168 @@
+{
+  "user_id": "maya-chen",
+  "display_name": "Maya",
+  "profile": {"full_name": "Maya Chen", "about": "34, Toronto. Freelance product designer"},
+  "sessions": [
+    {
+      "id": "s01",
+      "started_at": "2026-08-24T09:15:00-04:00",
+      "recalls": [],
+      "messages": [
+        {"role": "user", "text": "hey, can you help me plan my week? 3 client deadlines"},
+        {"role": "assistant", "text": "Happy to. Which of the three is due first, and roughly how many hours does it still need?"},
+        {"role": "user", "text": "Tamarack (outdoor gear app) is biggest, onboarding screens due fri. Brightwell logistics dashboard next wed. Loom & Lantern is a tiny candle shop, just product page tweaks"},
+        {"role": "assistant", "text": "Got it, three clients: Tamarack, Brightwell and Loom & Lantern. When do you do your best focus work?"},
+        {"role": "user", "text": "6 to 9am, always. kitchen table, coffee, phone off. meetings after lunch"},
+        {"role": "assistant", "text": "Nice rhythm. So Tamarack onboarding gets the 6-9am blocks Mon to Thu, Brightwell gets the afternoon overflow, and Loom & Lantern fits in Friday after lunch. Does that feel realistic?"},
+        {"role": "user", "text": "yeah thats basically what i do. lantern stuff is 2 hrs max"},
+        {"role": "assistant", "text": "Perfect, I'll keep Lantern capped at two hours. Want a reminder each evening about the next morning's block?"},
+        {"role": "user", "text": "sure, 9pm"}
+      ]
+    },
+    {
+      "id": "s02",
+      "started_at": "2026-08-28T09:40:00-04:00",
+      "recalls": ["Which clients is Maya currently working with?", "What hours does Maya do her deep work?"],
+      "messages": [
+        {"role": "user", "text": "ugh. Loom & Lantern still hasn't paid the invoice from june. 60 days now"},
+        {"role": "assistant", "text": "That's frustrating, especially for a two-hour-a-week client. Have you sent a reminder yet, or is this the first time you're raising it?"},
+        {"role": "user", "text": "2 reminders already. they keep saying next week"},
+        {"role": "assistant", "text": "After two reminders, a firm email with a final due date is reasonable. Want me to draft one that stays polite but clear?"},
+        {"role": "user", "text": "yes pls. and honestly im thinking of just dropping them"},
+        {"role": "assistant", "text": "Dropping them would free your Friday afternoons for Tamarack and Brightwell, which both pay on time. Do you want the email to mention a pause on new work until the invoice is settled?"},
+        {"role": "user", "text": "yeah say new work pauses till its paid"},
+        {"role": "assistant", "text": "Here's a draft: Hi, a quick note that the June invoice is now 60 days overdue. Until it's settled by Sept 4, I'll be pausing new work. Thanks for understanding. Want me to soften it?"},
+        {"role": "user", "text": "its good, sending"}
+      ]
+    },
+    {
+      "id": "s03",
+      "started_at": "2026-09-02T09:20:00-04:00",
+      "recalls": ["Which clients is Maya currently working with?"],
+      "messages": [
+        {"role": "user", "text": "so Sept 4 deadline came and went. i'm done, dropping Loom & Lantern"},
+        {"role": "assistant", "text": "That sounds like the right call after two reminders and a final notice. Did you tell them directly, or just let the contract lapse?"},
+        {"role": "user", "text": "sent a short email ending things. ill invoice any leftover hours and move on"},
+        {"role": "assistant", "text": "Clean and simple. So it's just Tamarack and Brightwell now, with Friday afternoons freed up. Anything you want to use that time for?"},
+        {"role": "user", "text": "actually yes!! signed up for a pottery class. tue and thu mornings starting the 8th"},
+        {"role": "assistant", "text": "Fun, that's a nice change from screens. Tuesday and Thursday mornings are right in your 6-9am deep-work zone though, so does that still work?"},
+        {"role": "user", "text": "class is 9 to 12. i can still do 6-8 maybe? not sure yet"},
+        {"role": "assistant", "text": "That could work for a week or two to test it. Want me to remind you Monday night to check how the first class affects your energy?"},
+        {"role": "user", "text": "ya do that"}
+      ]
+    },
+    {
+      "id": "s04",
+      "started_at": "2026-09-09T13:10:00-04:00",
+      "recalls": ["What hours does Maya do her deep work?", "What is Maya doing on Tuesday and Thursday mornings?"],
+      "messages": [
+        {"role": "user", "text": "ok first pottery class was yesterday and i was wiped. 6am work then clay, no way"},
+        {"role": "assistant", "text": "Glad you tried it. How did the clay part go, other than being tired?"},
+        {"role": "user", "text": "my bowl collapsed lol. but fun. anyway i'm gonna move deep work to evenings. 7 to 10pm"},
+        {"role": "assistant", "text": "That makes sense. So deep work is 7-10pm now, and Tuesday and Thursday mornings are for pottery. Should I update your 9pm reminders to 6:30pm?"},
+        {"role": "user", "text": "yes. 6:30 nudge is good"},
+        {"role": "assistant", "text": "Done. And the early mornings on Mon, Wed and Fri, are those free now, or do you want to keep a lighter block?"},
+        {"role": "user", "text": "free. sleeping in lol. calls and email in afternoons still"},
+        {"role": "assistant", "text": "Evenings for focus, afternoons for calls and email, pottery Tuesday and Thursday mornings. Want me to check that Brightwell's Wednesday meetings don't clash with the new setup?"},
+        {"role": "user", "text": "good idea, they sometimes go late"}
+      ]
+    },
+    {
+      "id": "s05",
+      "started_at": "2026-09-12T11:05:00-04:00",
+      "recalls": ["What is Sam's work schedule?", "When do Maya and Sam usually have dinner?"],
+      "messages": [
+        {"role": "user", "text": "big news, Sam got a new job. starts monday. night shift, 10pm to 6am"},
+        {"role": "assistant", "text": "Congrats to Sam! That's a big schedule change for both of you. How are you feeling about it?"},
+        {"role": "user", "text": "happy for him, but weird. we always ate dinner together around 8"},
+        {"role": "assistant", "text": "With a 10pm start, an 8pm dinner might be too late for him to rest or commute. Would an earlier dinner around 6 or 6:30 work?"},
+        {"role": "user", "text": "yeah 6:30 prob. he'll sleep in the day. so i'll be quiet in mornings"},
+        {"role": "assistant", "text": "That fits nicely with your evening deep work, and pottery mornings keep you out of the house while he sleeps. Do you want me to suggest some make-ahead dinners?"},
+        {"role": "user", "text": "yes!! easy stuff i can cook at like 5:30"},
+        {"role": "assistant", "text": "Sheet-pan chicken and veg, a big pasta bake, or a veggie curry would all be ready by 6:30. Which sounds best for his first night on Monday?"},
+        {"role": "user", "text": "curry. he loves it"}
+      ]
+    },
+    {
+      "id": "s06",
+      "started_at": "2026-09-17T14:25:00-04:00",
+      "recalls": ["What hours does Maya do her deep work?", "What is Sam's work schedule?"],
+      "messages": [
+        {"role": "user", "text": "ok i need a break. thinking of a trip to Lisbon, late October. maybe oct 24 to 31"},
+        {"role": "assistant", "text": "Lisbon in late October sounds lovely. Is Sam coming, or is this a solo trip?"},
+        {"role": "user", "text": "Sam's coming, he got a week off after his first month. we'd go oct 24 to 31"},
+        {"role": "assistant", "text": "Lovely. Do you want me to start a rough plan, with flights and neighborhoods to stay in first?"},
+        {"role": "user", "text": "neighborhoods first. also pls remind me, no coffee after 2pm from now on, im sleeping badly"},
+        {"role": "assistant", "text": "Got it, no coffee after 2pm. It's 2:25 now, so tea or water for the rest of the afternoon! For Lisbon, do you prefer lively areas or quieter ones?"},
+        {"role": "user", "text": "lively but not loud. walkable, good food"},
+        {"role": "assistant", "text": "Then Alfama and Chiado are worth a look, both walkable with lots of places to eat. Should I make a short list of places for each, for Oct 24 to 31?"},
+        {"role": "user", "text": "yes pls"}
+      ]
+    },
+    {
+      "id": "s07",
+      "started_at": "2026-09-22T18:50:00-04:00",
+      "recalls": ["When do Maya and Sam have dinner now?", "Which clients is Maya currently working with?"],
+      "messages": [
+        {"role": "user", "text": "dinner at 6:30 is working. Sam leaves at 9:30 for his shift"},
+        {"role": "assistant", "text": "Good to hear. And your deep work from 7 starts right after dinner, so are the evenings feeling productive?"},
+        {"role": "user", "text": "mostly. but Tamarack just emailed, they're redoing the whole feature scope. launch might slip"},
+        {"role": "assistant", "text": "That could affect your onboarding screens. Do you know yet how much the deadline might move?"},
+        {"role": "user", "text": "they said maybe early nov instead of oct 20. ugh bad timing with lisbon"},
+        {"role": "assistant", "text": "Yes, that would land right over your trip dates. Do you want to wait for Tamarack's new date before booking anything for Oct 24 to 31?"},
+        {"role": "user", "text": "yeah, nothing booked yet thank god"},
+        {"role": "assistant", "text": "Good call. Want me to ask them for a firm date in a short email so you can decide quickly?"},
+        {"role": "user", "text": "ok draft it"}
+      ]
+    },
+    {
+      "id": "s08",
+      "started_at": "2026-09-26T10:30:00-04:00",
+      "recalls": ["When is Maya's Lisbon trip?", "What is the new Tamarack deadline?"],
+      "messages": [
+        {"role": "user", "text": "Tamarack confirmed. new deadline is nov 6. so no lisbon in october"},
+        {"role": "assistant", "text": "Understood. With a Nov 6 deadline you'll want some buffer afterward. What about moving the trip to mid-November?"},
+        {"role": "user", "text": "nov 14 to 21 maybe? Sam asked his manager, should be ok"},
+        {"role": "assistant", "text": "Nov 14 to 21 gives you over a week to wrap Tamarack up first. Should I update the neighborhood list for November weather?"},
+        {"role": "user", "text": "yes, probably cooler and rainy right?"},
+        {"role": "assistant", "text": "Likely mild with some rain, so I'd add a few cozy cafes and indoor spots like museums. Do you want to still stay in Alfama or Chiado?"},
+        {"role": "user", "text": "chiado. flat-ish and near everything"},
+        {"role": "assistant", "text": "Chiado it is, for Nov 14 to 21. I'll note that Sam still needs his manager's final okay. Want a reminder to book flights once he hears back?"},
+        {"role": "user", "text": "yep, thursday"}
+      ]
+    },
+    {
+      "id": "s09",
+      "started_at": "2026-10-01T15:10:00-04:00",
+      "recalls": ["Does Maya drink coffee?", "When is Maya's Lisbon trip?"],
+      "messages": [
+        {"role": "user", "text": "update, Sam's manager said yes to nov 14-21. booking flights tonight"},
+        {"role": "assistant", "text": "Great news. Are you flying from Toronto direct, or are you open to a layover to save money?"},
+        {"role": "user", "text": "open to one layover if its cheaper. also i think im just going fully decaf now. no real coffee at all"},
+        {"role": "assistant", "text": "That's quite a change from the early-morning coffee days. Is the sleep better since you stopped after 2pm?"},
+        {"role": "user", "text": "much better. decaf in the morning still feels like a ritual tho"},
+        {"role": "assistant", "text": "A warm cup counts for a lot. Should I note decaf as your default if I help with café ideas for Lisbon?"},
+        {"role": "user", "text": "yes. decaf and a pastel de nata lol"},
+        {"role": "assistant", "text": "Perfect pairing. For flights, do you want me to prefer afternoon arrivals so you can ease in on the 14th?"},
+        {"role": "user", "text": "yes arrive by evening"}
+      ]
+    },
+    {
+      "id": "s10",
+      "started_at": "2026-10-05T19:20:00-04:00",
+      "recalls": ["Where does Maya do her work?", "What hours does Maya do her deep work?"],
+      "messages": [
+        {"role": "user", "text": "so the kitchen table is getting old. Sam sleeps during the day, i work evenings, the kitchen's always in use"},
+        {"role": "assistant", "text": "That sounds cramped, especially with the new schedules. Have you thought about where else you could work?"},
+        {"role": "user", "text": "renting a small studio space. like a shared desk or tiny room near the pottery place"},
+        {"role": "assistant", "text": "Being near the pottery class could make Tuesday and Thursday easy. Would you use it just for your 7 to 10pm blocks, or also for calls?"},
+        {"role": "user", "text": "both probably. calls are awkward at home when Sam is asleep"},
+        {"role": "assistant", "text": "Good point, that's a real plus. Do you have a monthly budget in mind, and would you want it available in the evenings?"},
+        {"role": "user", "text": "under 500 cad. has to be open evenings"},
+        {"role": "assistant", "text": "I can help you list what to compare: price, evening access, noise and a short lease. Want me to put together a checklist for viewings?"},
+        {"role": "user", "text": "yes pls, good idea"}
+      ]
+    }
+  ],
+  "portrait": "Maya Chen, 34, is a freelance product designer in Toronto working for two clients, Tamarack (deadline now Nov 6) and Brightwell, after dropping a late-paying third. She does deep work 7-10pm because pottery fills Tuesday and Thursday mornings. Partner Sam works nights, so dinner is at 6:30. She drinks only decaf, plans Lisbon for Nov 14-21, and is looking at a small studio space."
+}

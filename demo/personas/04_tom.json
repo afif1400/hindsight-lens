@@ -1,0 +1,137 @@
+{
+  "user_id": "tom-okafor",
+  "display_name": "Tom",
+  "profile": {"full_name": "Tom Okafor", "about": "58, Leeds. Retired secondary-school teacher"},
+  "sessions": [
+    {
+      "id": "s01",
+      "started_at": "2026-08-25T08:40:00+01:00",
+      "recalls": [],
+      "messages": [
+        {"role": "user", "text": "morning. Grace and I are going to Bologna in early October, I want to get some Italian into my head before then"},
+        {"role": "assistant", "text": "Lovely plan. How much Italian do you have right now, and how much time can you give it each day?"},
+        {"role": "user", "text": "basically none, I can say grazie and that's it. I'm retired so time is fine, thinking 20 mins every morning with an app"},
+        {"role": "assistant", "text": "Twenty minutes daily adds up fast, and mornings are a good habit slot. Do you want to focus on restaurant and travel phrases first?"},
+        {"role": "user", "text": "yes exactly, ordering food, directions, hotel stuff. Grace wants me to do the talking, God help her"},
+        {"role": "assistant", "text": "Ha, then ordering food is the right first target. Want a simple weekly plan: week one greetings and cafe orders, week two directions and numbers?"},
+        {"role": "user", "text": "go on then"},
+        {"role": "assistant", "text": "Week one: greetings, please and thank you, and ordering a coffee and a pastry. Do the app lesson each morning, and say the phrases out loud over breakfast. Does Grace want to join in?"},
+        {"role": "user", "text": "she says she'll listen and correct me. she did french at school so she thinks she's an expert"}
+      ]
+    },
+    {
+      "id": "s02",
+      "started_at": "2026-08-30T10:15:00+01:00",
+      "recalls": ["What is Tom's plan for learning Italian before his trip?", "Who is Tom travelling with and when?"],
+      "messages": [
+        {"role": "user", "text": "5 days in a row now! app says I have a streak"},
+        {"role": "assistant", "text": "Five mornings straight is a solid start. Can you order a coffee in Italian yet, ahead of the Bologna trip in October?"},
+        {"role": "user", "text": "un caffè per favore, yes. also I found a conversation class, Thursday evenings at the community centre, starts 3rd Sept"},
+        {"role": "assistant", "text": "That's a great complement to the app, since you'll actually be speaking. Is it for beginners, and will you go?"},
+        {"role": "user", "text": "beginners, 7 to 8:30. I'm signing up tonight. nervous about talking in front of strangers, funny for an ex teacher"},
+        {"role": "assistant", "text": "Plenty of teachers dread being the student. You'll have 20 minutes of app practice behind you each morning, which helps. Want a few phrases for introducing yourself?"},
+        {"role": "user", "text": "yes please. also I need to go to the allotment later, beans want picking"},
+        {"role": "assistant", "text": "Sounds like a good Sunday. Are those the runner beans? Here's a start: mi chiamo Tom, sono di Leeds, sono in pensione. That last one means I'm retired."},
+        {"role": "user", "text": "yes runner beans, loads of them. and courgettes, but they're sulking. sono in pensione, I like that"}
+      ]
+    },
+    {
+      "id": "s03",
+      "started_at": "2026-09-08T19:05:00+01:00",
+      "recalls": ["What Italian classes or practice does Tom do?", "What are Tom's travel plans?"],
+      "messages": [
+        {"role": "user", "text": "big news. Hannah had the baby on Saturday, a girl, Ada. my first grandchild!"},
+        {"role": "assistant", "text": "Congratulations Tom, what wonderful news! How are Hannah and Ada doing, and how are you and Grace feeling?"},
+        {"role": "user", "text": "both fine, tired. Grace is over the moon. they live in Manchester so we'll be going over most weekends to help"},
+        {"role": "assistant", "text": "That's lovely, you'll be very welcome. Does that change anything for the Bologna trip in early October?"},
+        {"role": "user", "text": "yeah. we've decided to move it to spring. no way I'm missing Ada's first weeks"},
+        {"role": "assistant", "text": "That makes complete sense, and it gives you more months to practise Italian. Do you have a spring month in mind?"},
+        {"role": "user", "text": "April probably. I went to my first class Thursday by the way, it was fine! I did the whole intro, mi chiamo Tom"},
+        {"role": "assistant", "text": "Well done, that's the hardest bit done. Is the class staying on Thursday evenings, and are you keeping up the morning app sessions?"},
+        {"role": "user", "text": "yes to both, though weekend mornings in Manchester might be tricky"}
+      ]
+    },
+    {
+      "id": "s04",
+      "started_at": "2026-09-13T17:30:00+01:00",
+      "recalls": ["What is Tom growing at his allotment?", "Where does Tom spend his weekends?"],
+      "messages": [
+        {"role": "user", "text": "back from Manchester. Ada is tiny and perfect. I held her for an hour"},
+        {"role": "assistant", "text": "That sounds like a lovely weekend. Did you get any Italian in, or was it all baby duty?"},
+        {"role": "user", "text": "did the app on the train, 20 mins, kept the streak going. then allotment this afternoon, depressing"},
+        {"role": "assistant", "text": "Good train use of time. What was depressing about the allotment, the courgettes again?"},
+        {"role": "user", "text": "yep. three tiny courgettes all season. the slugs and the weather won. runner beans did great though"},
+        {"role": "assistant", "text": "A good bean year at least. Will you try courgettes again next year, or give the space to something else?"},
+        {"role": "user", "text": "I'm done with courgettes. not worth the bother. thinking garlic for winter instead"},
+        {"role": "assistant", "text": "Garlic is a sensible swap, it gets planted in autumn and mostly looks after itself. Do you want a rough planting timetable for Leeds?"},
+        {"role": "user", "text": "yes please, I think Oct to Nov for the cloves right?"},
+        {"role": "assistant", "text": "That's right, October into November works well. Plant cloves pointy end up, about 15cm apart and a few cm deep. Do you have a bed cleared yet?"}
+      ]
+    },
+    {
+      "id": "s05",
+      "started_at": "2026-09-17T08:20:00+01:00",
+      "recalls": ["What does Tom do on Wednesdays?", "How does Tom practise Italian?"],
+      "messages": [
+        {"role": "user", "text": "I've been asked to volunteer at the library homework club, Wednesdays 3:30 to 5. thought I'd say yes, miss the classroom a bit"},
+        {"role": "assistant", "text": "Sounds like a natural fit for a retired teacher. Which subjects will you help with, and when does it start?"},
+        {"role": "user", "text": "mostly maths and english, ages 11 to 14. starting next Wednesday"},
+        {"role": "assistant", "text": "That's your old territory. With the Thursday class and weekends in Manchester, how is your week shaping up?"},
+        {"role": "user", "text": "busy! Wednesday club, Thursday Italian class, weekends at Hannah's. the app is slipping, I missed three mornings this week"},
+        {"role": "assistant", "text": "Understandable with a new grandchild. Would a shorter session help, or is the app starting to feel like a chore?"},
+        {"role": "user", "text": "honestly the app is getting boring. same drills, a cartoon owl nagging me. I like the class more"},
+        {"role": "assistant", "text": "The class sounds like it works better for you. Do you want to think about what else could replace the 20 minutes in the morning?"},
+        {"role": "user", "text": "maybe. let me think"}
+      ]
+    },
+    {
+      "id": "s06",
+      "started_at": "2026-09-23T21:10:00+01:00",
+      "recalls": ["Is Tom still using the Italian app?", "What did Tom start at the library?"],
+      "messages": [
+        {"role": "user", "text": "first homework club done. a girl asked me to explain fractions and I forgot how much I enjoy it"},
+        {"role": "assistant", "text": "That's great, Tom. Did the club run the way you hoped, and are you going back next Wednesday?"},
+        {"role": "user", "text": "definitely. also I've deleted the app. been looking for another way to learn Italian"},
+        {"role": "assistant", "text": "A bold move after a long streak. What did you have in mind, since the Thursday class stays?"},
+        {"role": "user", "text": "Grace found me a simple Italian novel, a short one for learners with an English glossary. reading 20 mins each morning instead"},
+        {"role": "assistant", "text": "Same 20 minutes, but reading something with a story is more fun than drills. Are you managing it with a dictionary, or guessing from context?"},
+        {"role": "user", "text": "a bit of both. I wrote new words in a notebook like I used to make the kids do"},
+        {"role": "assistant", "text": "Very teacherly. Want to bring five words from your notebook to the Thursday class to practise using them out loud?"},
+        {"role": "user", "text": "good idea, will do"}
+      ]
+    },
+    {
+      "id": "s07",
+      "started_at": "2026-09-29T09:00:00+01:00",
+      "recalls": ["What are Tom's weekly commitments?", "When is Tom's trip to Bologna now planned?"],
+      "messages": [
+        {"role": "user", "text": "can you help me sort out my week, it's getting crowded"},
+        {"role": "assistant", "text": "Of course. What do you have fixed so far?"},
+        {"role": "user", "text": "Wed homework club 3:30 to 5, Thursday Italian class 7 to 8:30, weekends in Manchester with Ada. mornings are novel time"},
+        {"role": "assistant", "text": "Does that leave a regular slot for the allotment? Your garlic needs planting in October."},
+        {"role": "user", "text": "Monday and Tuesday are free so allotment on Monday. I'll buy the garlic cloves this week"},
+        {"role": "assistant", "text": "Monday for the allotment is a good plan. And the trip: are you still looking at April for Bologna with Grace?"},
+        {"role": "user", "text": "yes, april, I'd like to book the flights soon though. Grace wants to avoid Easter crowds"},
+        {"role": "assistant", "text": "Good thinking, mid-April after Easter could suit you both. Should I help you compare dates, or wait until Hannah's plans settle?"},
+        {"role": "user", "text": "wait a bit. but I'm on chapter 4 of the novel, understood a whole page without the glossary!"}
+      ]
+    },
+    {
+      "id": "s08",
+      "started_at": "2026-10-04T18:45:00+01:00",
+      "recalls": ["What is Tom growing or planning to grow at the allotment?", "What is Tom doing for Italian practice now?"],
+      "messages": [
+        {"role": "user", "text": "garlic is in! did four rows on Monday, 40 cloves"},
+        {"role": "assistant", "text": "Nice work, that should give you a good crop. Do you have anything else on the plot, apart from the runner beans clearing out?"},
+        {"role": "user", "text": "just clearing the bean plants now. no courgettes next year, I've decided. maybe more beans"},
+        {"role": "assistant", "text": "Beans were your success this year, so that's a sound choice. How's the Italian going with the novel?"},
+        {"role": "user", "text": "chapter 7. still do the Thursday class and I ordered a whole lunch in Italian at the cafe near the library, Grace was proud"},
+        {"role": "assistant", "text": "That's real progress, and exactly what you'll want in Bologna. Did the homework club kids hear about it too?"},
+        {"role": "user", "text": "ha yes, one asked me to teach her 'buongiorno'. Ada's smiling now too, Hannah sent a video"},
+        {"role": "assistant", "text": "What a lovely week. Do you want to start a rough list of places for the April trip, or enjoy Ada's smiles for now?"},
+        {"role": "user", "text": "list please, Grace wants food markets first"}
+      ]
+    }
+  ],
+  "portrait": "Tom is a 58-year-old retired secondary-school teacher in Leeds, married to Grace. He is learning Italian for a spring (April) trip to Bologna, now practising by reading a simple Italian novel each morning and attending a Thursday-evening class. He is a new grandfather to Ada, spends weekends in Manchester, volunteers at the library homework club on Wednesdays, and has planted garlic on his allotment."
+}

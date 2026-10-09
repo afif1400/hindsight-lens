@@ -1,0 +1,36 @@
+# Lens next to a Hindsight you already run. Copy the `lens` service into the
+# compose file that runs Hindsight (same network), then add the HINDSIGHT_API_*
+# settings below to the Hindsight service and restart it.
+#
+#   LENS_PASSWORD=... LENS_WEBHOOK_SECRET=... docker compose up -d lens
+#   ssh -L 8900:127.0.0.1:8900 <host>    # then open http://127.0.0.1:8900/
+
+services:
+  lens:
+    image: ghcr.io/afif1400/hindsight-lens:latest
+    restart: unless-stopped
+    environment:
+      LENS_HINDSIGHT_URL: http://hindsight:8888        # the Hindsight service name on this network
+      # LENS_HINDSIGHT_API_KEY: ${HINDSIGHT_API_KEY}   # only if Hindsight requires one
+      LENS_WEBHOOK_SECRET: ${LENS_WEBHOOK_SECRET:?set LENS_WEBHOOK_SECRET}
+      LENS_PASSWORD: ${LENS_PASSWORD:?set LENS_PASSWORD}
+      # LENS_DATABASE_URL: postgresql+psycopg://lens:...@postgres/lens   # default: SQLite in the volume
+    volumes:
+      - lens-data:/data
+    ports:
+      - "127.0.0.1:8900:8900"   # memory text: keep it off public interfaces, put TLS in front
+
+  # hindsight:
+  #   environment:
+  #     HINDSIGHT_API_WEBHOOK_URL: http://lens:8900/hooks/hindsight
+  #     HINDSIGHT_API_WEBHOOK_SECRET: ${LENS_WEBHOOK_SECRET}
+  #     HINDSIGHT_API_WEBHOOK_EVENT_TYPES: consolidation.completed,retain.completed
+  #     HINDSIGHT_API_WEBHOOK_ALLOWED_HOSTS: lens
+  #     HINDSIGHT_API_AUDIT_LOG_ENABLED: "true"
+  #     HINDSIGHT_API_AUDIT_LOG_ACTIONS: recall
+  #     HINDSIGHT_API_AUDIT_LOG_RETENTION_DAYS: "30"
+  #     HINDSIGHT_API_LLM_TRACE_ENABLED: "true"
+  #     HINDSIGHT_API_LLM_TRACE_RETENTION_DAYS: "7"
+
+volumes:
+  lens-data:

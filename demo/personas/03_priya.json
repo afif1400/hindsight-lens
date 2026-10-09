@@ -1,0 +1,151 @@
+{
+  "user_id": "priya-nair",
+  "display_name": "Priya",
+  "profile": {"full_name": "Priya Nair", "about": "27, Bengaluru. Backend engineer at a startup"},
+  "sessions": [
+    {
+      "id": "s01",
+      "started_at": "2026-08-25T21:40:00+05:30",
+      "recalls": [],
+      "messages": [
+        {"role": "user", "text": "hey! I signed up for my first half marathon in December. help me make a training plan?"},
+        {"role": "assistant", "text": "Congrats, that's exciting! How many days a week can you run right now, and what's the longest distance you've done so far?"},
+        {"role": "user", "text": "4 days a week, 5am runs. I'm in a running group at Cubbon Park, we meet mon wed fri and sat. longest is 10k"},
+        {"role": "assistant", "text": "Nice base, 10k is a solid start and the group will keep you honest at 5am. Do you have a finish time in mind for December?"},
+        {"role": "user", "text": "yes, want to finish under 2:15. thats the goal"},
+        {"role": "assistant", "text": "Under 2:15 is ambitious but doable with 14 weeks. I'd keep Saturday as your long run and build it up by about a kilometre a week. Does that sit okay with your group's Saturday plan?"},
+        {"role": "user", "text": "ya Saturday is long run day anyway. I live in indiranagar so cubbon park is like 15 min by cab"},
+        {"role": "assistant", "text": "Good, that makes the 5am start easier. Want me to sketch the first four weeks with easy runs on Mon and Wed, a tempo on Fri and the long run on Sat?"},
+        {"role": "user", "text": "yes pls"}
+      ]
+    },
+    {
+      "id": "s02",
+      "started_at": "2026-08-31T22:10:00+05:30",
+      "recalls": ["What is Priya's running schedule?", "What is Priya's half marathon goal?"],
+      "messages": [
+        {"role": "user", "text": "problem. my team is moving to a new on-call rotation, I'm on late shifts from next week. 5am runs are dead"},
+        {"role": "assistant", "text": "That's annoying after building the 5am habit with your Cubbon Park group. Could you shift to evenings instead, still four days a week?"},
+        {"role": "user", "text": "evenings yes. my building has a treadmill, so I'll just use that. no traffic drama also"},
+        {"role": "assistant", "text": "A treadmill makes evenings easy to stick to. Do you want to keep Saturday as the long run, or move it since the group won't be part of it on weekdays?"},
+        {"role": "user", "text": "keep saturday long run, I'll still go to the group for that. weekdays treadmill after 7pm"},
+        {"role": "assistant", "text": "Perfect, so Mon, Wed, Fri evenings on the treadmill and Saturday with the group. Want me to put a small incline on the tempo day so the treadmill feels closer to road running?"},
+        {"role": "user", "text": "ooh yes 1% incline na. do that"}
+      ]
+    },
+    {
+      "id": "s03",
+      "started_at": "2026-09-06T20:15:00+05:30",
+      "recalls": ["What is Priya's current training setup?"],
+      "messages": [
+        {"role": "user", "text": "knees are being annoying after the long run yesterday. kinda sore going down stairs"},
+        {"role": "assistant", "text": "Sorry to hear that. Since you're on the treadmill most days, would swapping a couple of runs for something lower impact help, like cycling?"},
+        {"role": "user", "text": "I have a cycle at home actually. could swap 2 runs for cycling this week"},
+        {"role": "assistant", "text": "Good idea. I'd swap the two easy evening runs for cycling and keep the Friday tempo and Saturday long run. Does that feel okay?"},
+        {"role": "user", "text": "ya makes sense. so run fri + sat, cycle mon + wed"},
+        {"role": "assistant", "text": "Got it: cycle Monday and Wednesday, run Friday and Saturday. How long do you want the rides, 45 minutes?"},
+        {"role": "user", "text": "45 min easy, ok. I'll see how the knees feel next week"}
+      ]
+    },
+    {
+      "id": "s04",
+      "started_at": "2026-09-10T23:05:00+05:30",
+      "recalls": ["Where does Priya live?", "How is Priya's week of training structured?"],
+      "messages": [
+        {"role": "user", "text": "so big news, my lease in indiranagar ends this month and I found a place in HSR Layout"},
+        {"role": "assistant", "text": "Big news indeed! You've been in Indiranagar with the treadmill downstairs, so HSR is a real change. When is the move?"},
+        {"role": "user", "text": "13th and 14th. the new building has no gym lol. so no treadmill"},
+        {"role": "assistant", "text": "Ha, that's a pity. Is there a park nearby where you could run your evening sessions instead?"},
+        {"role": "user", "text": "yes sector 2 has a park, and there's a loop near the lake also. will check once I move"},
+        {"role": "assistant", "text": "Nice, then evenings outdoors it is. Do you want a light week around the move so you're not exhausted with the boxes?"},
+        {"role": "user", "text": "ha ya. just the cycling and one easy run. packing is my cardio"}
+      ]
+    },
+    {
+      "id": "s05",
+      "started_at": "2026-09-15T21:30:00+05:30",
+      "recalls": ["Where does Priya live now?", "Which running group does Priya run with?"],
+      "messages": [
+        {"role": "user", "text": "all moved to HSR!! office commute is actually longer now, like 50 min. cubbon park group is too far for saturdays also"},
+        {"role": "assistant", "text": "Congrats on the move! A longer commute plus the distance from Cubbon Park must be a bummer. Is there any running group around HSR?"},
+        {"role": "user", "text": "found one, HSR run club, they meet sunday mornings at 6. I joined"},
+        {"role": "assistant", "text": "Great find. So your long run moves from Saturday to Sunday with the new group. Should Saturday become a rest day?"},
+        {"role": "user", "text": "ya sat rest. long run sunday now. missing my cubbon friends tho"},
+        {"role": "assistant", "text": "Understandable, you built that routine over months. Maybe catch up with them for a coffee after one weekend? Meanwhile, what's your plan for Friday, tempo in the park?"},
+        {"role": "user", "text": "ya tempo in sector 2 park, evening. will try"}
+      ]
+    },
+    {
+      "id": "s06",
+      "started_at": "2026-09-24T20:50:00+05:30",
+      "recalls": ["What does Priya eat?", "What is Priya's training schedule now?"],
+      "messages": [
+        {"role": "user", "text": "I've been thinking, going vegetarian on weekdays. like Mon-Fri no chicken or eggs. weekends I'll see"},
+        {"role": "assistant", "text": "That's a clear plan. Since you're training, want a few easy weekday dinner ideas that still have good protein, like paneer, dal and tofu?"},
+        {"role": "user", "text": "yes!! protein is my worry. rajma chawal is my fav so that helps"},
+        {"role": "assistant", "text": "Rajma chawal is a great pre-long-run meal too. Want a simple weekday rotation with dal, paneer bhurji, chole and curd?"},
+        {"role": "user", "text": "ya do it. also mujhe breakfast ke ideas chahiye, no eggs now"},
+        {"role": "assistant", "text": "Bilkul! Moong dal chilla, poha with peanuts or oats with curd and fruit all work before an evening run. Which one sounds easiest for busy mornings?"},
+        {"role": "user", "text": "moong chilla. batter pehle se bana lungi"}
+      ]
+    },
+    {
+      "id": "s07",
+      "started_at": "2026-09-27T16:20:00+05:30",
+      "recalls": ["Does Priya have any new hobbies or learning goals?", "What is Priya's long run day?"],
+      "messages": [
+        {"role": "user", "text": "ran 16k at HSR run club this morning, so tired. also starting Kannada classes, weekends only"},
+        {"role": "assistant", "text": "16k is a big win, congrats! And Kannada is a great idea since you live in Bengaluru. What made you want to learn?"},
+        {"role": "user", "text": "I've been here 3 yrs and still only know 'swalpa adjust maadi' lol. wanna talk to auto drivers properly"},
+        {"role": "assistant", "text": "Ha, that phrase takes you far! When are your classes, Saturday since it's your rest day?"},
+        {"role": "user", "text": "yes sat evening, 1 hour. and some practice on sunday after run"},
+        {"role": "assistant", "text": "Nice fit. Want me to suggest a few easy daily phrases to practice, like greetings and asking for directions?"},
+        {"role": "user", "text": "yes pls, 5 phrases"},
+        {"role": "assistant", "text": "Namaskara for hello, dhanyavadagalu for thank you, eshtu for how much, illi nillisi for stop here, and nanage gottilla for I don't know. Which one will you try on an auto driver first?"}
+      ]
+    },
+    {
+      "id": "s08",
+      "started_at": "2026-09-30T22:00:00+05:30",
+      "recalls": ["What is Priya's weekly training plan?", "Why does Priya cycle?"],
+      "messages": [
+        {"role": "user", "text": "knees are better, but I'm keeping cycling mon + wed anyway. working well"},
+        {"role": "assistant", "text": "Glad they feel better. So the week is cycle Monday and Wednesday, run Friday in the park, long run Sunday with the club. Anything you want to change?"},
+        {"role": "user", "text": "maybe add a short easy 5k on thursday? but late on call shifts so only if I'm not drained"},
+        {"role": "assistant", "text": "That works as a bonus, not a must. If your on-call evening is rough, skip it without guilt. Want me to mark it optional in the plan?"},
+        {"role": "user", "text": "yes optional. also used 'dhanyavadagalu' on the auto driver, he was shocked lol"},
+        {"role": "assistant", "text": "Ha, love that! Did he reply in Kannada, or just smile?"},
+        {"role": "user", "text": "smiled and gave me change quick lol"}
+      ]
+    },
+    {
+      "id": "s09",
+      "started_at": "2026-10-02T22:25:00+05:30",
+      "recalls": ["What is Priya's half marathon goal?", "What are Priya's current weekday evening plans?"],
+      "messages": [
+        {"role": "user", "text": "been thinking. I'm dropping the sub 2:15 goal. new goal is just finish the half"},
+        {"role": "assistant", "text": "That's a big shift from sub 2:15. What changed, the knees, the move, or just wanting to enjoy it more?"},
+        {"role": "user", "text": "all of it lol. new commute, late shifts, cycling days. I don't want to hate training"},
+        {"role": "assistant", "text": "That sounds like a healthy call. Finishing your first half is already a great goal. Want me to ease the Friday tempo into an easy run, so the plan matches?"},
+        {"role": "user", "text": "yes make friday easy too. just long run sunday keeps building"},
+        {"role": "assistant", "text": "Done: easy Friday run, cycling Monday and Wednesday, long run Sunday. Should we pick a comfortable pace for race day, just so you know how it should feel?"},
+        {"role": "user", "text": "ya something chill, I just want to enjoy it and finish smiling"}
+      ]
+    },
+    {
+      "id": "s10",
+      "started_at": "2026-10-04T18:05:00+05:30",
+      "recalls": ["What has changed in Priya's training since August?"],
+      "messages": [
+        {"role": "user", "text": "just back from 18k with HSR run club!! felt really good, much more relaxed this time"},
+        {"role": "assistant", "text": "Wow, 18k feeling good is a great sign, and a relaxed pace is what \"just finish\" is all about. How did the knees hold up?"},
+        {"role": "user", "text": "fine!! the weekday cycling helps I think. had rajma chawal after the run, weekend so I also had some chicken later lol"},
+        {"role": "assistant", "text": "Sounds like a proper recovery day. Do you want to plan the rest of October so the long runs build toward December gradually?"},
+        {"role": "user", "text": "yes please. also sat Kannada class tomorrow wait no yesterday. ok next one next weekend"},
+        {"role": "assistant", "text": "Good to know, so next class is next Saturday. Shall I draft the long runs as 19k, 21k and then a lighter week, and you tell me what feels right?"},
+        {"role": "user", "text": "perfect, send"}
+      ]
+    }
+  ],
+  "portrait": "Priya, 27, is a backend engineer in Bengaluru, now living in HSR Layout after leaving Indiranagar. She is training for her first half marathon in December, with the goal now just to finish. She cycles Monday and Wednesday, runs Friday and a Sunday long run with the HSR run club. She eats vegetarian on weekdays and is learning Kannada on weekends."
+}
